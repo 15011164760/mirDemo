@@ -1,0 +1,9 @@
+[submodule "vue-base"]
+	path = vue-base
+	url = D:\\mirDemo\\vue-base
+[submodule "vue-base1"]
+	path = vue-base1
+	url = D:\\mirDemo\\vue-base1
+[submodule "vue-base2"]
+	path = vue-base2
+	url = D:\\mirDemo\\vue-base2
