@@ -1,0 +1,23 @@
+{
+  "name": "quankundemopro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "i_all": "cd vue-base && npm i && cd ../vue-base1 && npm i && cd ../vue-base2 && npm i",
+    "main": "cd vue-base && npm run serve",
+    "son1": "cd vue-base1 && npm run serve ",
+    "son2": "cd vue-base2 && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15011164760/quankunDemoPro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/15011164760/quankunDemoPro/issues"
+  },
+  "homepage": "https://github.com/15011164760/quankunDemoPro#readme"
+}
