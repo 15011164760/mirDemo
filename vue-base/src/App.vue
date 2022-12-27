@@ -2,17 +2,17 @@
   <div id="app">
     
     <h1>vue-base</h1>
-    <a href="/vue-base1" class="href">/vue-base1</a>
+    <a href="/#/vue-base1Demo" class="href">/vue-base1</a>
     <br>
-    <a href="/vue-base2" class="href1">/vue-base2</a>
+    <a href="/#/vue-base2Demo" class="href1">/vue-base2</a>
     <br>
     
-    <a href="/gtm-loan-web" class="href2">/gtm-loan-web</a>
+    <!-- <a href="/gtm-loan-web" class="href2">/gtm-loan-web</a> -->
+    <!-- <a href="/guaranteeListTenderee" class="href2">/guaranteeListTenderee</a> -->
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <div id="vue-base1"></div>
     <div id="vue-base2"></div>
-    <div id="gtm-loan-web"></div>
   </div>
 </template>
 

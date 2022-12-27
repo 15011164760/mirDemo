@@ -19,9 +19,9 @@ setTimeout(()=>{
 registerMicroApps([
   {
     name: 'vue-base1',
-    entry: '//localhost:3001',
+    entry: 'http://47.104.67.195/vue-base1',
     container: '#vue-base1',
-    activeRule: '/vue-base1',
+    activeRule: '/#/vue-base1Demo',
     props:{
       // name:"yang1",
       age:180
@@ -30,24 +30,34 @@ registerMicroApps([
   
   {
     name: 'vue-base2',
-    entry: '//localhost:3002',
+    entry: 'http://47.104.67.195/vue-base2',
     container: '#vue-base2',
-    activeRule: '/vue-base2',
+    activeRule: '/#/vue-base2Demo',
     props:{
       name:"yang2",
       age:19
     }
   },
-  {
-    name: 'gtm-loan-web',
-    entry: '//localhost:8088',
-    container: '#gtm-loan-web',
-    activeRule: '/gtm-loan-web',
-    props:{
-      name:"yang2",
-      age:19
-    }
-  },
+  // {
+  //   name: 'guaranteeListTenderee',
+  //   entry: 'http://localhost:8089/gtm/web/guarantee/#/Index/guaranteeListBidder',
+  //   container: '#guaranteeListTenderee',
+  //   activeRule: '/guaranteeListTenderee',
+  //   props:{
+  //     name:"yang2",
+  //     age:19
+  //   }
+  // },
+  // {
+  //   name: 'gtm-loan-web',
+  //   entry: '//localhost:8088',
+  //   container: '#gtm-loan-web',
+  //   activeRule: '/gtm-loan-web',
+  //   props:{
+  //     name:"yang2",
+  //     age:19
+  //   }
+  // },
 ]);
 // 启动 qiankun
 start();
