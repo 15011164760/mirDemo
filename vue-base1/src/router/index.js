@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import One from '@/components/HelloWorld.vue'
 import Two from '@/components/demo.vue'
 Vue.use(VueRouter)
-
+console.log(process.env.BASE_URL);
 const router = new VueRouter({
   mode: 'hash',
   base: process.env.BASE_URL,

@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service');
 const { name } = require('./package');
 module.exports =defineConfig({
-  publicPath: '/vue-base1/',
+  publicPath: '/vue-base1',
   lintOnSave: false,
   transpileDependencies: true,
   devServer: {

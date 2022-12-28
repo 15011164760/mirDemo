@@ -3,6 +3,8 @@
     
     <router-link to="/one">one</router-link>|
     <router-link to="/two">two</router-link>
+    <button @click="oneFN">one</button>
+    <button @click="twoFN">two</button>
     <router-view></router-view>
     <h1>vue-base1子项目</h1>
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
@@ -17,6 +19,19 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  methods:{
+    oneFN(){
+      this.$router.push({
+        name:'One'
+      })
+      
+    }, 
+    twoFN(){
+      this.$router.push({
+        name:'Two'
+      })
+    }, 
   }
 }
 </script>

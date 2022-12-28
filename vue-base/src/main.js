@@ -19,9 +19,9 @@ setTimeout(()=>{
 registerMicroApps([
   {
     name: 'vue-base1',
-    entry: 'http://47.104.67.195/vue-base1',
+    entry: '//47.104.67.195/vue-base1/',
     container: '#vue-base1',
-    activeRule: '/#/vue-base1Demo',
+    activeRule: '/base1',
     props:{
       // name:"yang1",
       age:180
@@ -30,9 +30,9 @@ registerMicroApps([
   
   {
     name: 'vue-base2',
-    entry: 'http://47.104.67.195/vue-base2',
+    entry: '//47.104.67.195/vue-base2/',
     container: '#vue-base2',
-    activeRule: '/#/vue-base2Demo',
+    activeRule: '/base2',
     props:{
       name:"yang2",
       age:19
